@@ -14,8 +14,6 @@ class TasksModel(db.Model):
     name: str
     description: str
     duration: int
-    urgency: int
-    importance: int
     classitication: str = None
 
 
