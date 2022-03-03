@@ -15,7 +15,6 @@ from app.models.tasks_model import TasksModel
 
 @verify_types({
   "name": str,
-  "description": str,
   "duration": int,
   "importance": int,
   "urgency": int,
